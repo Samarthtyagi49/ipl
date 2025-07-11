@@ -39,7 +39,7 @@ col3, col4, col5 = st.columns(3)
 with col3:
     score = int(st.number_input('Score', step=1, format="%d"))
 with col4:
-    full_overs = st.number_input('Full Overs Completed', min_value=0, step=1, format="%d")
+    full_overs = st.number_input('Full Overs Completed', min_value=0,max_value=20, step=1, format="%d")
     extra_balls = st.number_input('Balls into current over (0–5)', min_value=0, max_value=5, step=1, format="%d")
 
 # Calculate actual overs as float
