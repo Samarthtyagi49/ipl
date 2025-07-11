@@ -46,7 +46,8 @@ with col4:
 overs = full_overs + (extra_balls / 6)
 
 with col5:
-    wickets = int(st.number_input('Wickets out', step=1, format="%d"))
+    wickets = int(st.number_input('Wickets out', min_value=0, max_value=10, step=1, format="%d"))
+
 
 if st.button('Predict Probability'):
     runs_left = target - score
