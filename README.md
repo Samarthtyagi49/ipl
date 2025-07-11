@@ -5,6 +5,6 @@ here↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓
 
 [click to view](https://ipl-win-predictor-ozsi.onrender.com/)
 
-The site will take approx 1 min to load.
+The site will take approx 1 minute to load.
 Kindly wait untill the initial state of website is established.
 Thankyou for your patience.
